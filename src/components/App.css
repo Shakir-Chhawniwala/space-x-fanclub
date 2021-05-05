@@ -1,15 +1,16 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   margin: 25px;
   color: white;
 }
 
 @media only screen and (max-width:600px) {
   h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 20px;
   color: white;
 }

@@ -2,13 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const LaunchCard = ({ name, details, status, launches }) => {
-// const renderList = launches.map (Launch => {
-//   return (
-//     <li style={{ margin: "2px" }}>
-//       <Link to="/launchdetail">{launches.launch}</Link>
-//     </li> <= 2
-//   );
-// }) 
+
   return (
     <div className="ui card" style={{ margin: "20px" }}>
       <div
